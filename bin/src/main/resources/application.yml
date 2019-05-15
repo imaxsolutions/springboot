@@ -1,0 +1,17 @@
+server:
+  port: 5000
+
+spring:
+  datasource:
+    driver-class-name: org.mariadb.jdbc.Driver
+    username: myguest
+    password: Mamthi2013
+    url: jdbc:mariadb://myguest.cercdvvzdz3b.us-east-1.rds.amazonaws.com:3306/myguest
+     
+logging:
+  level:
+    root: TRACE
+    org.springframework.web: TRACE
+    com.example: TRACE
+    org.hibernate: TRACE
+       
